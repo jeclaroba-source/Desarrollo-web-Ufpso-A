@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>Mi Lista de Tareas</h1>
+        
+        <form id="formulario-tareas">
+            <input id="tareaInput" type="text" placeholder="¿Qué hay que hacer hoy?">
+            <button type="submit" id="agregar">Agregar</button>
+        </form>
+
+        <p class="status">Total de tareas pendientes: <span id="contador">0</span></p>
+        
+        <ul id="listaTareas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
